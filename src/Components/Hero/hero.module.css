@@ -1,0 +1,107 @@
+.heroContainer {
+    position: relative;
+    height: 100vh;
+
+}
+
+.heroInfo {
+    background-color: #C98A40;
+}
+
+.p {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 26px;
+    color: #fff;
+}
+
+.button {
+    padding: 10px 25px;
+    background-color: #FDBA10;
+    color: #fff;
+    border: 1px solid #FDBA10;
+    border-radius: 15px;
+}
+
+.icons {
+    background-color: white;
+    background-image: url("../../assets/Group.png");
+    background-origin: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: space-between;
+    color: #C98A40;
+    font-size: 25px;
+}
+
+.heroImgContainer {
+    background-image: url("../../assets/Group.png");
+    background-origin: content-box;
+    position: relative;
+
+}
+
+.img {
+    position: absolute;
+    top: 22%;
+    left: -250px;
+}
+
+@media (max-width: 767px) {
+    .heroContainer {
+        height: auto;
+    }
+
+
+    .heroInfo {
+        order: 1;
+    }
+
+    .heroImgContainer {
+        order: 2;
+        position: static;
+        /* background-color: aqua; */
+        padding-bottom: 50px;
+
+
+    }
+
+    .phone {
+        margin: 5px 100px 0px 100px;
+    }
+
+    .img {
+        position: relative;
+        width: 100%;
+        left: 0;
+        top: 0;
+        margin: 20px 10px;
+        /* clear: both; */
+    }
+
+
+    .button {
+        display: block;
+        margin: 0 auto;
+    }
+
+
+
+    .icons {
+        order: 2;
+        justify-content: center;
+        align-items: start;
+        font-size: 20px;
+        margin-left: -50px;
+        background-color: #C98A40;
+        color: #fff;
+        flex-direction: row;
+    }
+
+    .icons i {
+        margin: 5px 10px;
+    }
+
+
+}

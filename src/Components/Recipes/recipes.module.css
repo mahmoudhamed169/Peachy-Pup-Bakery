@@ -1,0 +1,27 @@
+.recipes {
+    width: 80%;
+    margin: auto;
+
+}
+
+.title {
+    /* background-color: aqua; */
+    width: 100%;
+}
+
+@media (max-width: 767px) {
+    .recipes {
+        /* background-color: aqua; */
+        width: 57%;
+
+
+    }
+
+    .title {
+        /* background-color: aqua; */
+        width: 100%;
+        font-size: 120px;
+    }
+
+
+}

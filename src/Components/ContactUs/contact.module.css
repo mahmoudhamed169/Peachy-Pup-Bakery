@@ -1,0 +1,10 @@
+@media (max-width: 767px) {
+
+    .title {
+        /* background-color: aqua; */
+        width: 100%;
+        font-size: 60px;
+    }
+
+
+}

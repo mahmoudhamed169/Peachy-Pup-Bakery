@@ -1,0 +1,52 @@
+h2 {
+
+    font-size: 144px;
+    font-weight: 800;
+    line-height: 138.24px;
+    text-align: left;
+
+}
+
+button {
+    padding: 10px 25px;
+    background-color: #FDBA10;
+    color: #fff;
+    border: 1px solid #FDBA10;
+    border-radius: 15px;
+
+}
+
+.clr {
+    clear: both;
+}
+
+h5 {
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 24px;
+    color: #C98A40 !important;
+
+}
+
+.card {
+    border: 1px solid #FFD8AB;
+    border-radius: 30px;
+
+}
+
+input {
+    background-color: #FFD39F !important;
+}
+
+.formButtun {
+    border: 3px solid #C98A40;
+    background-color: transparent;
+    transition: all 1s;
+}
+
+.formButtun:hover {
+    background-color: #FFD39F;
+    border: 3px solid black;
+
+
+}

@@ -1,0 +1,15 @@
+.testymonial {
+    background-color: #f0850bae;
+    background-image: url("../../assets/Group.png");
+}
+
+@media (max-width: 767px) {
+
+    .title {
+        /* background-color: aqua; */
+        width: 100%;
+        font-size: 60px;
+    }
+
+
+}

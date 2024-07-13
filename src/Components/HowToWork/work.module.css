@@ -1,0 +1,64 @@
+/* work.module.css */
+.howWork {
+    position: relative;
+    height: 840px
+}
+
+.workCaption {
+    background-color: #fff;
+    background-image: url("../../assets/Group.png");
+    background-origin: content-box;
+
+}
+
+.images {
+    position: absolute;
+    bottom: 60px;
+    left: 10%;
+
+
+}
+
+.captionContainer {
+    height: 50%;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+.layoutContainer {
+    height: 100%;
+}
+
+@media (max-width: 767px) {
+    .layoutContainer {
+        height: auto;
+    }
+
+    .howWork {
+        position: static;
+        height: auto;
+    }
+
+    .images {
+        position: static;
+        background-color: #C98A40;
+        width: 97.5%;
+        padding: 20px 0px;
+        height: auto;
+    }
+
+    .workCaption {
+        height: 250px;
+        order: 2;
+    }
+
+    .captionContainer {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: start;
+        align-items: start;
+        margin: 0;
+    }
+}
